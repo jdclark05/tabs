@@ -15,7 +15,7 @@ class TabsPage extends Component {
                     { info: "'That's Life - Disturbing facts about food and everything else..."},
                     { info: "'How Adorable' - Animal facts that will definitely put a smile on your face."}
                 ],
-                alert: ""
+                alert: "Welcome to the index of interesting facts!"
                 },
                 {
                 title: "Far Out",

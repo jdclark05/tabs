@@ -42,7 +42,7 @@ class TabsPage extends Component {
                     { info: "Squirrels plant thousands of new trees each year by merely forgetting where they put their acorns."},
                     { info: "Long-time bird watcher and nature writer Candace Savage has observed that crows are so intelligent they can play pranks on each other."}
                 ],
-                alert: "Definitely read these if the Gross Facts ruined your day!"
+                alert: "Definitely read these if the 'That's Life' ruined your day!"
                 }
             ]
         }

@@ -13,7 +13,7 @@ class TabsPage extends Component {
                 details: [
                     { info: "'Far Out' - facts about science and space!"},
                     { info: "'That's Life - Disturbing facts about food and everything else..."},
-                    { info: "'How Adorable' - Animal facts that will definitley put a smile on your face."}
+                    { info: "'How Adorable' - Animal facts that will definitely put a smile on your face."}
                 ],
                 alert: ""
                 },
@@ -52,7 +52,7 @@ class TabsPage extends Component {
 
         return (
             <div className="backGround d-flex justify-content-center align-items-center m-auto" style={{width: '60rem', height: '55rem'}}>
-                <Tabs style={{height: '35rem', width: '45rem', backgroundColor: 'black', border: '2px solid #000'}}>
+                <Tabs onSelect = { (index, title) => alert(this.state.data[index].alert)} style={{height: '35rem', width: '45rem', backgroundColor: 'black', border: '2px solid #000'}}>
                 {
                     this.state.data.map((item) =>
                         <Tab label={item.title} >
